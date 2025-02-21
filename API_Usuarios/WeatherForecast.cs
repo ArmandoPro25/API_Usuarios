@@ -1,13 +1,19 @@
 namespace API_Usuarios
 {
-    public class WeatherForecast
+    public class Ususarios
     {
-        public DateOnly Date { get; set; }
+        public int Id { get; set; }
 
-        public int TemperatureC { get; set; }
-
-        public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-
-        public string? Summary { get; set; }
+        public string Nombre_Completo { get; set; }
+        
+        public string Nombre_Usuario { get; set; }
+        
+        public string Correo_Electronico { get; set; }
+        
+        public char Sexo { get; set; }
+	    
+        public int Numero_Telefono { get; set; }
+        
+        public string Contrasena { get; set; }
     }
 }
